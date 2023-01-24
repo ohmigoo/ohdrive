@@ -27,6 +27,8 @@ const localeText = (locale: string): string => {
       return '🇹🇷 Türkçe'
     case 'zh-TW':
       return '🇹🇼 繁體中文'
+    case 'id-ID':
+      return 'ⁱᵈ Indonesia'
     default:
       return '🇬🇧 English'
   }
